@@ -1067,7 +1067,7 @@ function findTotalWinningsFromCards(cards: Array < string > ): number {
             card,
             bid: bid[index]
         }
-        let key: number = Infinity;
+        let key;
 
         if (unique.length === dup.length && unique.length !== 1) {
             key = unique.length + dup.length
